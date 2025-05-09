@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar button {
+    border: 1px solid rgb(199, 195, 195);
+    color: rgb(54, 51, 51);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+    background: white;
+}
+
+.navbar button:hover {
+    background-color: rgb(245, 242, 242);
+}
+
+.button-img {
+    margin: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar button img {
+    width: 10px;
+    margin-top: 2px;
+}
+
+.letter-icon {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    color: black;
+    display: none;
+    width: 100px;
+    right: 0;
+    margin-top: 4px;
+    background-color: rgb(243, 243, 243);
+    z-index: 2;
+    border-radius: 3px;
+
+}
+
+.letter-icon:hover .list {
+    display: block;
+
+}
+
+.list ul li:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.list ul {
+    list-style: none;
+    margin: 6px;
+
+}
+
+.list ul li {
+    border-radius: 3px;
+    padding: 3px;
+}

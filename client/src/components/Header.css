@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .sub-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.sub-header h1,
+.sub-header h2,
+.sub-header p,
+.sub-header button,
+.sub-header img {
+    margin: 5px 0;
+    /* or even 2px 0 for tighter spacing */
+}
+
+
+.header .header-icon {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header h2 .handwave-icon {
+    width: 30px;
+    margin-bottom: 0;
+    vertical-align: -0.3rem;
+}
+
+.sub-header button {
+    border: 1px solid rgb(199, 195, 195);
+    color: rgb(54, 51, 51);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 120px;
+    background: white;
+    padding: 10px;
+}
+
+.sub-header button:hover {
+    background-color: rgb(245, 242, 242);
+}
